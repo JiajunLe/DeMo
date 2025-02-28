@@ -18,12 +18,9 @@ If you find this project useful, please cite:
 }
 ```
 
-## Requirements
+## Requirements and Compilation
 
 Please use Python 3.8.5, opencv-contrib-python (4.2.0.32) and Pytorch (>= 1.9.1). Other dependencies should be easily installed through pip or conda.
-
-
-## Example scripts
 
 ### Compile extra modules
 
@@ -33,6 +30,9 @@ python setup.py build_ext --inplace
 cd ../pointnet2_ext
 python setup.py build_ext --inplace
 ```
+
+## Example scripts
+
 ### Run the demo
 
 You can run the feature matching for two images with DeMo.
