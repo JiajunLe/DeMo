@@ -25,12 +25,20 @@ Please use Python 3.8.5, opencv-contrib-python (4.2.0.32) and Pytorch (>= 1.9.1)
 
 ## Example scripts
 
+### Compile extra modules
+
+```bash
+cd network/knn_search
+python setup.py build_ext --inplace
+cd ../pointnet2_ext
+python setup.py build_ext --inplace
+```
 ### Run the demo
 
 You can run the feature matching for two images with DeMo.
 
 ```bash
-cd filter_demo && python filter.py
+cd ../../filter_demo && python filter.py
 ```
 
 ### Datasets and Pretrained models
