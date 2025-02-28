@@ -78,9 +78,15 @@ python main.py
 ```
 
 ## Acknowledgement
-This code is borrowed from [ConvMatch](https://github.com/SuhZhang/ConvMatch). If using the part of code related to data generation, testing and evaluation, please cite these papers.
+This code is borrowed from [LMCNet](https://github.com/liuyuan-pal/LMCNet.git) and [ConvMatch](https://github.com/SuhZhang/ConvMatch). If using the part of code related to data generation, testing and evaluation, please cite these papers.
 
 ```
+@inproceedings{liu2021learnable,
+  title={Learnable Motion Coherence for Correspondence Pruning},
+  author={Liu, Yuan and Liu, Lingjie and Lin, Cheng and Dong, Zhen and Wang, Wenping},
+  booktitle={CVPR}
+  year={2021}
+}
 @inproceedings{zhang2023convmatch,
   title={ConvMatch: Rethinking Network Design for Two-View Correspondence Learning},
   author={Zhang, Shihua and Ma, Jiayi},
